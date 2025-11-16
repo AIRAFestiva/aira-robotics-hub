@@ -7,7 +7,6 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Models from "@/components/Models";
 import Gallery from "@/components/Gallery";
 import Founders from "@/components/Founders";
-import Story from "@/components/Story";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -23,7 +22,6 @@ const Index = () => {
       <Models />
       <Gallery />
       <Founders />
-      <Story />
       <Contact />
       <Footer />
     </div>
