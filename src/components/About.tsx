@@ -18,8 +18,8 @@ const About = () => {
                 <Building2 className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">Who We Are</h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <h3 className="text-xl font-semibold text-foreground mb-2">Who We Are ?</h3>
+                <p className="text-muted-foreground leading-relaxed text-justify">
                   AIRA is a unit of Festiva Moments (MSME Udyam Reg: UDYAM-KR-03-0571027). 
                   We aim to bridge the gap between youth potential and real-world industry needs 
                   through innovative robotics education.
@@ -32,8 +32,8 @@ const About = () => {
                 <Award className="w-6 h-6 text-accent" />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">What We Do</h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <h3 className="text-xl font-semibold text-foreground mb-2">What We Do ?</h3>
+                <p className="text-muted-foreground leading-relaxed text-justify">
                   We bring world-class robotics training directly to your school. Our comprehensive 
                   hands-on program for Classes 6-10 features expert trainers, ready-to-use lab kits, 
                   industry-aligned curriculum, and real robotic builds that ignite passion for STEM.
@@ -46,7 +46,7 @@ const About = () => {
             <h3 className="text-2xl font-bold text-foreground mb-4">
               Bringing World-Class Robotics Training to Your School
             </h3>
-            <p className="text-muted-foreground leading-relaxed mb-6">
+            <p className="text-muted-foreground leading-relaxed mb-6 text-justify">
               Our program transforms traditional learning environments into innovation hubs where 
               curiosity meets technology. Students don't just learn about robots—they build, program, 
               and bring them to life.

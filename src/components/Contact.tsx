@@ -6,13 +6,13 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "festivamoments77@gmail.com",
-      link: "mailto:festivamoments77@gmail.com",
+      content: "aira.festivamoments@gmail.com",
+      link: "mailto: aira.festivamoments@gmail.com",
     },
     {
       icon: MapPin,
       title: "Visit",
-      content: "Bangalore, Karnataka",
+      content: "K R Puram, Bangaluru, Karnataka",
       link: null,
     },
     {

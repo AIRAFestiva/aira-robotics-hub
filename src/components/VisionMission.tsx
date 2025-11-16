@@ -24,7 +24,7 @@ const VisionMission = () => {
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                 To transform traditional learning environments into innovation hubs where students 
                 learn by building, experimenting, and creating. We envision a future where every 
                 young mind has the opportunity to become a creator, not just a consumer, of technology.
@@ -46,14 +46,14 @@ const VisionMission = () => {
               <ul className="space-y-4">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
+                  <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                     Equip students with robotics, programming, and real technical skills that prepare 
                     them for the future workforce
                   </p>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
+                  <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                     Partner with schools to deliver sustainable long-term STEM programs that make 
                     lasting impact on education
                   </p>

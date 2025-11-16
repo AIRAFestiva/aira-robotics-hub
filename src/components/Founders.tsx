@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import founderRohith from "@/assets/founder-rohith.jpg";
-import founderHari from "@/assets/founder-hari.jpg";
-import founderGagan from "@/assets/founder-gagan.jpg";
+import founderRohith from "@/assets/rohit.jpeg";
+import founderHari from "@/assets/Hari.png";
+import founderGagan from "@/assets/gagan.png";
 
 const Founders = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -13,7 +13,7 @@ const Founders = () => {
     {
       name: "Rohith S V",
       image: founderRohith,
-      quote: "AIRA doesn't teach robotics — we ignite curiosity, confidence, and purpose within every young creator.",
+      quote: "AIRA doesn't teach robotics - we ignite curiosity, confidence, and purpose within every young creator.",
     },
     {
       name: "Hari Prasad",
@@ -78,7 +78,7 @@ const Founders = () => {
                         "{founder.quote}"
                       </p>
                       <p className="text-xl font-bold text-primary">{founder.name}</p>
-                      <p className="text-muted-foreground">Co-Founder, AIRA</p>
+                      <p className="text-muted-foreground">Founder, AIRA</p>
                     </div>
                   </div>
                 </CardContent>

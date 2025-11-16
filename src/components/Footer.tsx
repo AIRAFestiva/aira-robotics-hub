@@ -35,7 +35,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/_aira_academy_?igsh=djVpd3FpZmJrbDZ5&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-background/10 hover:bg-background/20 rounded-lg flex items-center justify-center transition-colors"
@@ -73,17 +73,16 @@ const Footer = () => {
               <li className="flex items-start space-x-2">
                 <Mail className="w-5 h-5 mt-1 flex-shrink-0" />
                 <a
-                  href="mailto:festivamoments77@gmail.com"
+                  href="mailto: aira.festivamoments@gmail.com"
                   className="text-background/80 hover:text-background transition-colors break-all"
                 >
-                  festivamoments77@gmail.com
+                   aira.festivamoments@gmail.com
                 </a>
               </li>
             </ul>
             <div className="mt-6">
-              <h4 className="font-semibold mb-2">Festiva Foundation</h4>
+              <h4 className="font-semibold mb-2">A unit of Festiva Moments</h4>
               <p className="text-background/80 text-sm">
-                A unit of Festiva Moments<br />
                 MSME Udyam Reg: UDYAM-KR-03-0571027
               </p>
             </div>

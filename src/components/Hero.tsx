@@ -90,19 +90,6 @@ const Hero = () => {
         <ChevronRight className="h-8 w-8" />
       </Button>
 
-      {/* Dots */}
-      <div className="absolute bottom-32 left-1/2 -translate-x-1/2 flex space-x-2 z-10">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
-              index === currentSlide ? "bg-white w-8" : "bg-white/50"
-            }`}
-          />
-        ))}
-      </div>
-
       {/* Tagline and CTA */}
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent py-12 z-10">
         <div className="container mx-auto px-4 text-center">
@@ -114,7 +101,7 @@ const Hero = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg animate-fade-in shadow-lg hover:shadow-xl transition-all"
             onClick={() => scrollToSection("about")}
           >
-            Explore Our Programs
+            About AIRA Academy
           </Button>
         </div>
       </div>

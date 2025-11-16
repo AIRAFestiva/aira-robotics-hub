@@ -1,10 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
-import robotWired from "@/assets/robot-wired-car.jpg";
-import robotLine from "@/assets/robot-line-follower.jpg";
-import robotObstacle from "@/assets/robot-obstacle.jpg";
-import robotBluetooth from "@/assets/robot-bluetooth.jpg";
-import robotTraffic from "@/assets/robot-traffic.jpg";
-import robotNight from "@/assets/robot-night-light.jpg";
+import robotWired from "@/assets/wire.jpeg";
+import robotLine from "@/assets/line.jpeg";
+import robotObstacle from "@/assets/obstacle.jpeg";
+import robotBluetooth from "@/assets/bluetooth.jpeg";
+import robotTraffic from "@/assets/traffic.jpeg";
+import robotNight from "@/assets/lights.jpeg";
 
 const Models = () => {
   const models = [
