@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import founderRohith from "@/assets/rohit.jpeg";
 import founderHari from "@/assets/Hari.png";
 import founderGagan from "@/assets/gagan.png";
+import founderBhuvan from "@/assets/bhuvan.jpeg";
+import founderSaritha from "@/assets/saritha.jpeg";
 
 const Founders = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,6 +25,16 @@ const Founders = () => {
     {
       name: "Gagan Ramesh",
       image: founderGagan,
+      quote: "When imagination becomes a real working model, learning becomes excitement. That moment is AIRA's mission.",
+    },
+    {
+      name: "Bhuvan B",
+      image: founderBhuvan,
+      quote: "When imagination becomes a real working model, learning becomes excitement. That moment is AIRA's mission.",
+    },
+    {
+      name: "Saritha Kumari K",
+      image: founderSaritha,
       quote: "When imagination becomes a real working model, learning becomes excitement. That moment is AIRA's mission.",
     },
   ];
