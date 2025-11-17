@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import mitLogo from "@/assets/mit-logo.png";
-import festivaLogo from "@/assets/festiva-logo.png";
+import mitLogo from "@/assets/mit-logo.jpeg";
+import festivaLogo from "@/assets/festiva-logo-1.png";
 import cybertrinetraLogo from "@/assets/cybertrinetra-logo.png";
 
 const TrustedPartners = () => {
