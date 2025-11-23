@@ -30,12 +30,12 @@ const Founders = () => {
     {
       name: "Bhuvan B",
       image: founderBhuvan,
-      quote: "When imagination becomes a real working model, learning becomes excitement. That moment is AIRA's mission.",
+      quote: "AIRA was created to make robotics learning hands-on for every student.",
     },
     {
       name: "Saritha Kumari K",
       image: founderSaritha,
-      quote: "When imagination becomes a real working model, learning becomes excitement. That moment is AIRA's mission.",
+      quote: "AIRA began with the idea of bringing quality robotics education directly to schools.",
     },
   ];
 

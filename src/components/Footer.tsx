@@ -1,5 +1,6 @@
 import { Linkedin, Instagram, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import aira_logo from "@/assets/AIRA.png";
 
 const Footer = () => {
   const scrollToSection = (id: string) => {
@@ -16,13 +17,15 @@ const Footer = () => {
           {/* Column 1 - AIRA */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-background rounded-lg flex items-center justify-center">
-                <span className="text-foreground font-bold text-lg">A</span>
-              </div>
+              <img
+                src={aira_logo}
+                alt="AIRA Logo"
+                className="w-10 h-10 object-contain"
+              />
               <span className="text-2xl font-bold">AIRA</span>
             </div>
             <p className="text-background/80 mb-4 leading-relaxed">
-              Advanced Institute of Robotics and Automation. Transforming classrooms into innovation 
+              Advanced Institute of Robotics and Automation. Transforming classrooms into innovation
               hubs where young minds engineer the robots of tomorrow.
             </p>
             <div className="flex space-x-4">
